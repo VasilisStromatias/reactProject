@@ -13,7 +13,7 @@ return (
     <div className="card w-75 mx-auto bg-dark ">
     <form className="bg-dark">
 
-        <div className ="card-body d-flex flex-column justify-content-center align-items-center my-5">
+        <div className ="card-body h-75 d-flex flex-column justify-content-center align-items-center my-5 p-0">
 
             <h2 className="card-title text-light display-4 text-center">Send us an email</h2>
 
@@ -22,6 +22,9 @@ return (
 
             <label className="text-warning">E-mail</label>
             <input type="email" class="form-control w-75" placeholder="Enter email here"/>
+
+            <label className="text-warning">Your message</label>
+            <textarea class="form-control w-75" rows="5" placeholder="Your text here..."/>
 
         </div> {/* card body */}
             
