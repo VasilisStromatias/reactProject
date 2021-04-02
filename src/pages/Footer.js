@@ -15,13 +15,13 @@ function Footer (){
                 <div className ="my-auto">
                     <h3 className=" font-weight-bold">Opening Hours</h3>
                     <ul className ="days p-0 m-0">
-                        <li><p>Monday 10-02</p></li>
-                        <li><p>Tuesday 10-02</p></li>
-                        <li><p>Wednsday 10-02</p></li>
-                        <li><p>Thursday 10-02</p></li>
-                        <li><p>Friday 10-02</p></li>
-                        <li><p>Saturday 10-03</p></li>
-                        <li><p>Sunday 10-03</p></li>
+                        <li><p>Monday 10:00-02:00</p></li>
+                        <li><p>Tuesday 10:00-02:00</p></li>
+                        <li><p>Wednsday 10:00-02:00</p></li>
+                        <li><p>Thursday 10:00-02:00</p></li>
+                        <li><p>Friday 10:00-02:00</p></li>
+                        <li><p>Saturday 10:00-03:00</p></li>
+                        <li><p>Sunday 10:00-03:00</p></li>
                     </ul>
                 </div>
                 
@@ -30,10 +30,10 @@ function Footer (){
                     <h3 className=" font-weight-bold">Contact</h3>
 
                     <div className="text-warning"><ImPhone/></div>
-                    <p className="text-light">210-6758963</p>
+                    <p className="text-light">210-xxxxxxx</p>
 
                     <div className="text-warning"><GrMail/></div>
-                    <p className="text-light">upupaepops@gmail.com</p>
+                    <p className="text-light">info@upupaepops.com</p>
 
                     <button className="btn btn-warning w-100">
                         <Link to="/contact" className="text-dark">Send us mail</Link>
