@@ -15,13 +15,13 @@ function Footer (){
                 <div className ="my-auto">
                     <h3 className=" font-weight-bold">Opening Hours</h3>
                     <ul className ="days p-0 m-0">
-                        <li><p>Monday 10:00-02:00</p></li>
-                        <li><p>Tuesday 10:00-02:00</p></li>
-                        <li><p>Wednsday 10:00-02:00</p></li>
-                        <li><p>Thursday 10:00-02:00</p></li>
-                        <li><p>Friday 10:00-02:00</p></li>
-                        <li><p>Saturday 10:00-03:00</p></li>
-                        <li><p>Sunday 10:00-03:00</p></li>
+                        <li><p>Δευτέρα 10:00-02:00</p></li>
+                        <li><p>Τρίτη 10:00-02:00</p></li>
+                        <li><p>Τετάρτη 10:00-02:00</p></li>
+                        <li><p>Πέμπτη 10:00-02:00</p></li>
+                        <li><p>Παρασκευή 10:00-02:00</p></li>
+                        <li><p>Σάββατο 10:00-03:00</p></li>
+                        <li><p>Κυριακή 10:00-03:00</p></li>
                     </ul>
                 </div>
                 
