@@ -1,0 +1,13 @@
+.pointer {
+    cursor: pointer;
+    border: none;
+}
+
+.info {
+    position: absolute;
+    font-size: 12px;
+}
+
+.cocktail-description {
+    height: 50px;
+}

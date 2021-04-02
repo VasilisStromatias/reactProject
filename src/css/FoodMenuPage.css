@@ -1,0 +1,16 @@
+.food-menu {
+    height: max-content;
+}
+
+h1 a ,h1 a:hover {
+    color : white;
+}
+
+.plusbtn {
+    color: white;
+}
+
+.ingre {
+    font-size: 12px;
+}
+

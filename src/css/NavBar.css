@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Train+One&display=swap');
+
+nav {
+    height: 10%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Train One', cursive;
+    font-size: 30px;
+}
+
+.navbar-nav {
+    font-size: 18px ;
+}

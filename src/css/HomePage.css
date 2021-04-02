@@ -1,0 +1,16 @@
+.one, .container{
+    height: 70vh;
+    background-image: url('../images/backHome2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 
+
+.container h1{
+    font-family: 'Train One', cursive;
+}
+
+.two{
+    height: 80vh;
+    background-image: white;
+}
