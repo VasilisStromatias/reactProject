@@ -1,4 +1,4 @@
-.one, .container{
+.one{
     height: 70vh;
     background-image: url('../images/backHome2.jpg');
     background-size: cover;
@@ -12,5 +12,4 @@
 
 .two{
     height: 80vh;
-    background-image: white;
 }

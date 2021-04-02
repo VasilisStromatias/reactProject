@@ -207,6 +207,7 @@ const foodDessert = foodData.map ((item) =>{
 
     return(
         <>
+        <div className="food-page">
         <div className="container food-menu text-light font-weight-bold"> 
 
 {/* BRUNCH */}
@@ -314,7 +315,7 @@ const foodDessert = foodData.map ((item) =>{
 {/* DESSERTS */}
 
         <div className="">
-            <h1 className="display-4 ">
+            <h1 className="display-4 mb-0">
                 <a href="#" onClick={toggleDe}><BiPlus /></a>
                     Desserts
             </h1>     
@@ -324,6 +325,7 @@ const foodDessert = foodData.map ((item) =>{
     (de ? '' : 'd-none')} >
         {foodDessert}
         </div>
+    </div>
     </div>
         </>
     );    

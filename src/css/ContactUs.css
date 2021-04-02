@@ -9,3 +9,9 @@ form {
 .contact-page {
     height: 600px;
 }
+
+.test{
+    background-size: cover;
+    background-image: url('../images/backround-1.jpg');
+    background-position: center;
+}

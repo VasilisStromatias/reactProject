@@ -6,8 +6,11 @@ import '../css/ContactUs.css'
 function ContactUsPage(){
 return (
 <>
+<div className="test ">
+
 <div className="container contact-page">
-    <div className="card w-75 mx-auto mt-5 bg-dark">
+    <div className="contact-page d-flex flex-column justify-content-center align-items-center">
+    <div className="card w-75 mx-auto bg-dark ">
     <form className="bg-dark">
 
         <div className ="card-body d-flex flex-column justify-content-center align-items-center my-5">
@@ -27,6 +30,8 @@ return (
         
     </form>
     </div> {/*card*/}
+    </div>
+</div>
 </div>
 </>
 );
