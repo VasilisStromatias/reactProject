@@ -10,6 +10,21 @@
     font-family: 'Train One', cursive;
 }
 
-.two{
-    height: 80vh;
-}
+.one-half{
+    height: 25vh;
+ }
+
+.shape {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    height: 350px;
+    width: 350px;
+ }
+ 
+ .two {
+    height: 60vh;
+ }
+ 
+ p button a{
+    text-decoration: none;
+ }
+
