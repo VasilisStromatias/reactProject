@@ -49,13 +49,17 @@ if (item.category === "brunch") {
 
             <div className="d-flex align-items-center justify-content-start">
 
-                <h2 className="mr-4">
+            <div className="plate-name">
+            <h2 className="mr-4">
                     {item.name}
                 </h2>
-
-                <p className="ingre">
+            </div>
+                
+            <div>
+            <p className="ingre">
                     {item.ingredients}
                 </p>
+            </div>
 
             </div>
 
@@ -72,13 +76,17 @@ const foodSalads = foodData.map (item =>{
     
                 <div className="d-flex align-items-center justify-content-start">
     
-                    <h2 className="mr-4">
-                        {item.name}
-                    </h2>
-    
-                    <p className="ingre">
-                        {item.ingredients}
-                    </p>
+                <div className="plate-name">
+            <h2 className="mr-4">
+                    {item.name}
+                </h2>
+            </div>
+                
+            <div>
+            <p className="ingre">
+                    {item.ingredients}
+                </p>
+            </div>
     
                 </div>
     
@@ -95,13 +103,17 @@ const foodSalads = foodData.map (item =>{
         
                     <div className="d-flex align-items-center justify-content-start">
         
-                        <h2 className="mr-4">
-                            {item.name}
-                        </h2>
-        
-                        <p className="ingre">
-                            {item.ingredients}
-                        </p>
+                    <div className="plate-name">
+            <h2 className="mr-4">
+                    {item.name}
+                </h2>
+            </div>
+                
+            <div>
+            <p className="ingre">
+                    {item.ingredients}
+                </p>
+            </div>
         
                     </div>
         
@@ -118,13 +130,17 @@ const foodSalads = foodData.map (item =>{
             
                         <div className="d-flex align-items-center justify-content-start">
             
-                            <h2 className="mr-4">
-                                {item.name}
-                            </h2>
-            
-                            <p className="ingre">
-                                {item.ingredients}
-                            </p>
+                        <div className="plate-name">
+            <h2 className="mr-4">
+                    {item.name}
+                </h2>
+            </div>
+                
+            <div>
+            <p className="ingre">
+                    {item.ingredients}
+                </p>
+            </div>
             
                         </div>
             
@@ -141,13 +157,17 @@ const foodSalads = foodData.map (item =>{
             
                         <div className="d-flex align-items-center justify-content-start">
             
-                            <h2 className="mr-4">
-                                {item.name}
-                            </h2>
-            
-                            <p className="ingre">
-                                {item.ingredients}
-                            </p>
+                        <div className="plate-name">
+            <h2 className="mr-4">
+                    {item.name}
+                </h2>
+            </div>
+                
+            <div>
+            <p className="ingre">
+                    {item.ingredients}
+                </p>
+            </div>
             
                         </div>
             
@@ -163,14 +183,19 @@ const foodLunch = foodData.map ((item) =>{
             <>
 
             <div className="d-flex align-items-end justify-content-start">
-
-                <h2 className="mr-4">
+            
+            <div className="plate-name">
+            <h2 className="mr-4">
                     {item.name}
                 </h2>
-
-                <p className="ingre">
+            </div>
+                
+            <div>
+            <p className="ingre">
                     {item.ingredients}
                 </p>
+            </div>
+                
 
             </div>
             
@@ -187,13 +212,17 @@ const foodDessert = foodData.map ((item) =>{
              <>
                 <div className="d-flex align-items-center justify-content-start">
 
-                    <h2 className="mr-4">
-                        {item.name}
-                    </h2>
-        
-                    <p className="ingre">
-                        {item.ingredients}
-                    </p>
+                <div className="plate-name">
+            <h2 className="mr-4">
+                    {item.name}
+                </h2>
+            </div>
+                
+            <div>
+            <p className="ingre">
+                    {item.ingredients}
+                </p>
+            </div>
 
                 </div>
                 

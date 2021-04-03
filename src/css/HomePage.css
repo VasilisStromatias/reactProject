@@ -1,13 +1,13 @@
 .one{
-    height: 70vh;
+    height: 100vh;
     background-image: url('../images/backHome2.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 } 
 
-.container h1{
-    font-family: 'Train One', cursive;
+.one-container {
+    height: 70vh;
 }
 
 .one-half{
@@ -16,8 +16,8 @@
 
 .shape {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
-    height: 350px;
-    width: 350px;
+    height: 380px;
+    width: 380px;
  }
  
  .two {
@@ -26,5 +26,18 @@
  
  p button a{
     text-decoration: none;
+ }
+
+ .find-us-text{
+     font-size: 70px;
+     font-weight: bolder;
+ }
+
+ .find-us-social {
+     font-size: 60px;
+ }
+
+ .ml-10 {
+     margin-left: 10%;
  }
 

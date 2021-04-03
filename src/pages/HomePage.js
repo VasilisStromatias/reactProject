@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../css/HomePage.css';
+import {GrFacebook, GrInstagram, GrTwitter} from 'react-icons/gr';
+
 
 
 function HomePage(){
@@ -8,7 +10,7 @@ function HomePage(){
     <>
 <div className="one">
 
-    <div className ="container d-flex align-items-center justify-content-end">
+    <div className ="container one-container d-flex align-items-center justify-content-end">
 
         <div className="text-light text-center">
             <h3 className="text-left">Welcome to</h3>
@@ -16,6 +18,18 @@ function HomePage(){
             <h6 className="text-right">the bar</h6>
         </div>
 
+    </div>
+
+    <div className="d-flex align-items-center justify-content-start ml-10">
+
+        <h1 className="find-us-text text-light display-4">Find us on</h1>
+        
+            <div className="find-us-social d-flex justify-content-between ml-5">
+                <a className="mr-4 text-light" href="facebook.com"><GrFacebook/></a>
+                <a className="mr-4 text-light" href="instagram.com"><GrInstagram/></a>
+                <a className="mr-4 text-light" href="twitter.com"><GrTwitter/></a>
+            </div>
+        
     </div>
     
 </div>

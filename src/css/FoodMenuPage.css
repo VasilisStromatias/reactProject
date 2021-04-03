@@ -1,4 +1,5 @@
 .food-page {
+    height: max-content;
     background-image: url('../images/backround-1.jpg');
     background-size: cover;
 }
@@ -17,5 +18,10 @@ h1 a ,h1 a:hover {
 
 .ingre {
     font-size: 12px;
+    width:70vh;
+}
+
+.plate-name{
+    width: 300px;
 }
 
