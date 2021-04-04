@@ -72,7 +72,7 @@ if (item.category === "brunch") {
             </div>
                 
             <div>
-            <p className="ingre">
+            <p className="ingre letter-spacing">
                     {item.ingredients}
                 </p>
             </div>
@@ -99,7 +99,7 @@ const foodPancakes = foodData.map (item =>{
                 </div>
                     
                 <div>
-                <p className="ingre">
+                <p className="ingre letter-spacing">
                         {item.ingredients}
                     </p>
                 </div>
@@ -126,7 +126,7 @@ const foodPancakes = foodData.map (item =>{
                     </div>
                         
                     <div>
-                    <p className="ingre">
+                    <p className="ingre letter-spacing">
                             {item.ingredients}
                         </p>
                     </div>
@@ -153,7 +153,7 @@ const foodPancakes = foodData.map (item =>{
                         </div>
                             
                         <div>
-                        <p className="ingre">
+                        <p className="ingre letter-spacing">
                                 {item.ingredients}
                             </p>
                         </div>
@@ -180,7 +180,7 @@ const foodSalads = foodData.map (item =>{
             </div>
                 
             <div>
-            <p className="ingre">
+            <p className="ingre letter-spacing">
                     {item.ingredients}
                 </p>
             </div>
@@ -207,7 +207,7 @@ const foodSalads = foodData.map (item =>{
             </div>
                 
             <div>
-            <p className="ingre">
+            <p className="ingre letter-spacing">
                     {item.ingredients}
                 </p>
             </div>
@@ -234,7 +234,7 @@ const foodSalads = foodData.map (item =>{
             </div>
                 
             <div>
-            <p className="ingre">
+            <p className="ingre letter-spacing">
                     {item.ingredients}
                 </p>
             </div>
@@ -261,7 +261,7 @@ const foodSalads = foodData.map (item =>{
             </div>
                 
             <div>
-            <p className="ingre">
+            <p className="ingre letter-spacing">
                     {item.ingredients}
                 </p>
             </div>
@@ -288,7 +288,7 @@ const foodLunch = foodData.map ((item) =>{
             </div>
                 
             <div>
-            <p className="ingre">
+            <p className="ingre letter-spacing">
                     {item.ingredients}
                 </p>
             </div>
@@ -316,7 +316,7 @@ const foodDessert = foodData.map ((item) =>{
             </div>
                 
             <div>
-            <p className="ingre">
+            <p className="ingre letter-spacing">
                     {item.ingredients}
                 </p>
             </div>

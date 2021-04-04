@@ -22,7 +22,7 @@ function SignatureCocktailPage() {
                 {item.name}
         </button>
 
-        <p className= {'cocktail-description mb-0 bg-dark text-light ' + 
+        <p className= {'cocktail-description mb-0 bg-dark text-light letter-spacing ' + 
             ((display===i) ? 'd-flex align-items-center justify-content-center' : 'd-none') }>
                 {item.description}
         </p>

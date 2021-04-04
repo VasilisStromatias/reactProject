@@ -2,3 +2,7 @@
    /* Here is the root (index.html) styles. */
 
 }
+
+.letter-spacing{
+   letter-spacing: 2px;
+}
