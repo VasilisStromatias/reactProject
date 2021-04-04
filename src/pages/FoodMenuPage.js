@@ -42,6 +42,22 @@ const [de,toggleDe] =useReducer(
     false
 );
 
+const [pan,togglePan] =useReducer(
+    (pan) => !pan,
+    false
+);
+
+const [sand,toggleSand] =useReducer(
+    (sand) => !sand,
+    false
+);
+
+const [eggs,toggleEggs] =useReducer(
+    (eggs) => !eggs,
+    false
+);
+
+
 const foodBrunch = foodData.map (item =>{
 if (item.category === "brunch") {
     return(
@@ -66,8 +82,89 @@ if (item.category === "brunch") {
         </>
     );
 }
-                    
+                  
 })
+
+const foodPancakes = foodData.map (item =>{
+    if (item.subcategory === "pancakes") {
+        return(
+            <>
+    
+                <div className="d-flex align-items-center justify-content-start">
+    
+                <div className="plate-name">
+                <h2 className="mr-4">
+                        {item.name}
+                    </h2>
+                </div>
+                    
+                <div>
+                <p className="ingre">
+                        {item.ingredients}
+                    </p>
+                </div>
+    
+                </div>
+    
+            </>
+        );
+    }
+                      
+    })
+
+    const foodSadwich = foodData.map (item =>{
+        if (item.subcategory === "sandwich") {
+            return(
+                <>
+        
+                    <div className="d-flex align-items-center justify-content-start">
+        
+                    <div className="plate-name">
+                    <h2 className="mr-4">
+                            {item.name}
+                        </h2>
+                    </div>
+                        
+                    <div>
+                    <p className="ingre">
+                            {item.ingredients}
+                        </p>
+                    </div>
+        
+                    </div>
+        
+                </>
+            );
+        }
+                          
+        })
+
+        const foodEggs = foodData.map (item =>{
+            if (item.subcategory === "eggs") {
+                return(
+                    <>
+            
+                        <div className="d-flex align-items-center justify-content-start">
+            
+                        <div className="plate-name">
+                        <h2 className="mr-4">
+                                {item.name}
+                            </h2>
+                        </div>
+                            
+                        <div>
+                        <p className="ingre">
+                                {item.ingredients}
+                            </p>
+                        </div>
+            
+                        </div>
+            
+                    </>
+                );
+            }
+                              
+            })
 
 const foodSalads = foodData.map (item =>{
     if (item.category === "salads") {
@@ -231,7 +328,6 @@ const foodDessert = foodData.map ((item) =>{
     }
                             
 })
-        
 
 
     return(
@@ -250,23 +346,45 @@ const foodDessert = foodData.map ((item) =>{
 
 
 
-
-        <h3 className={'border-top border-bottom ml-4 ' +
+<div className="ml-4">
+<h1 className={'border-top ' +
     (br ? '' : 'd-none')} >
-        <a href="#" onClick={toggleBr}><BiPlus /></a>
+
+
+        <a href="#" onClick={togglePan}><BiPlus /></a>
         Pancakes
-        </h3>
+        </h1>
 
-        <h3 className={'border-top border-bottom ' +
+        <div className={'border-top border-bottom ' +
+    (pan ? '' : 'd-none')} >
+        {foodPancakes}
+        </div>
+
+
+
+        <h1 className={'' +
     (br ? '' : 'd-none')} >
-        <a href="#" onClick={toggleBr}><BiPlus /></a>Eggs
-        </h3>
+        <a href="#" onClick={toggleSand}><BiPlus /></a>Sandwich
+        </h1>
 
-        <h3 className={'border-top border-bottom ' +
+        <div className={'border-top border-bottom ' +
+    (sand ? '' : 'd-none')} >
+        {foodSadwich}
+        </div>
+
+
+        <h1 className={'border-bottom ' +
     (br ? '' : 'd-none')} >
-        <a href="#" onClick={toggleBr}><BiPlus /></a>Sandwich
-        </h3>
+        <a href="#" onClick={toggleEggs}><BiPlus /></a>Eggs
+        </h1>
 
+        <div className={'border-top border-bottom ' +
+    (eggs ? '' : 'd-none')} >
+        {foodEggs}
+        </div>
+
+</div>
+    
 
 
         

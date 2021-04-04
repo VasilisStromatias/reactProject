@@ -1,23 +1,106 @@
 const foodData =[
-       
+// PANCAKES
         {
             "category": "brunch",
+            "subcategory": "pancakes",
             "name": "Upupa Pancakes",
             "ingredients" : "Με λευκή σοκολάτα, πραλίνα φουντουκιού, πολύχρωμα δημητριακά, πουράκια σοκολάτας, marshmallows"
         },
 
         {
             "category": "brunch",
-            "name": "Omellete",
-            "ingredients" : "Info"
+            "subcategory": "pancakes",
+            "name": "Σοκολάτα μπισκότο",
+            "ingredients" : ""
         },
 
         {
             "category": "brunch",
-            "name": "Poached",
-            "ingredients" : "Info"
+            "subcategory": "pancakes",
+            "name": "Σοκολάτα-μπισκότο-μπανάνα",
+            "ingredients" : ""
         },
 
+        {
+            "category": "brunch",
+            "subcategory": "pancakes",
+            "name": "Ταχίνι & Μέλι",
+            "ingredients" : ""
+        },
+
+        {
+            "category": "brunch",
+            "subcategory": "pancakes",
+            "name": "Αλμυρά Pancakes",
+            "ingredients" : "με ham, gouda, τομάτα, σώς ταρτάρ, αυγό βραστό"
+        },
+
+// SANDWICHES
+
+{
+    "category": "brunch",
+    "subcategory": "sandwich",
+    "name": "Sandwich προσούτο",
+    "ingredients" : "με χειροποίητο τραγανό ψωμάκι απο την ζύμη της πίτσας μας, προσούτο Πάρμας, φλοίδες παλαιωμένης γραβιέρας Ρεθύμνου, ολόφρεσκη πράσινη σαλάτα, τομάτα και σπιτική μαρμελάδα σύκου"
+},
+
+{
+    "category": "brunch",
+    "subcategory": "sandwich",
+    "name": "Sandwich απάκι κοτόπουλο",
+    "ingredients" : "με χειροποίητο τραγανό ψωμάκι απο την ζύμη της πίτσας μας, Κρητικό απάκι κοτόπουλο, φλοίδες παρμεζάνας, τραγανό μπέικον, iceberg, και σπιτική σώς γιαουρτιού"
+},
+
+// EGGS
+
+{
+    "category": "brunch",
+    "subcategory": "eggs",
+    "name": "Ομελέτα Upupa",
+    "ingredients" : "με μπέικον, καπνιστό τυρί, Scarmoza, μανιτάρια, φρέσκια τομάτα, σπαράγγια"
+},
+
+{
+    "category": "brunch",
+    "subcategory": "eggs",
+    "name": "Ομελέτα",
+    "ingredients" : "με γραβιέρα Κρήτης, φρέσκια τομάτα"
+},
+
+{
+    "category": "brunch",
+    "subcategory": "eggs",
+    "name": "Ομελέτα με ασπράδι αυγού",
+    "ingredients" : "με Κρητικό απάκι κοτόπουλο, μοτσαρέλα, βιολογικούς σπόρους κάνναβης, αβοκάντο"
+},
+
+{
+    "category": "brunch",
+    "subcategory": "eggs",
+    "name": "Scrables eggs",
+    "ingredients" : "με παραδοσιακό σύγκλινο Μάνης, φρέσκια τομάτα, Κρητική γαλομυζήθρα, φρέσκια ρίγανη και θυμαρίσιο μέλι σε προζυμένιο ψωμί"
+},
+
+{
+    "category": "brunch",
+    "subcategory": "eggs",
+    "name": "Scrabled eggs απλό",
+    "ingredients" : "με φρέσκια σαλάτα σε προζυμένιο ψωμί"
+},
+
+{
+    "category": "brunch",
+    "subcategory": "eggs",
+    "name": "Croque Madame",
+    "ingredients" : "με αφράτο Γαλλικό Brioche, προσούτο, Cotto, τυρί gouda, αυγό ποσέ και σπιτική μπεσαμέλ"
+},
+
+{
+    "category": "brunch",
+    "subcategory": "eggs",
+    "name": "Benedict",
+    "ingredients" : "ποσέ αυγά σε English muffin, μπέικον, χειροποίητη σως hollandese, τοματίνια και baby ρόκα"
+},
 
 
 // LUNCH
