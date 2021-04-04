@@ -44,9 +44,9 @@ function Footer (){
                 <div className="my-auto">
                     <h3 className="find-us m-0 font-weight-bold">Find us on</h3>
                     <div className="social-media d-flex justify-content-center ">
-                        <a className="text-light mr-4" href="facebook.com"><GrFacebook/></a>
-                        <a className="text-light mr-4" href="instagram.com"><GrInstagram/></a>
-                        <a className="text-light mr-4" href="twitter.com"><GrTwitter/></a>
+                        <a className="text-light mr-4" href="https://facebook.com"><GrFacebook/></a>
+                        <a className="text-light mr-4" href="https://instagram.com"><GrInstagram/></a>
+                        <a className="text-light mr-4" href="https://twitter.com"><GrTwitter/></a>
                     </div>
                     
                 </div>

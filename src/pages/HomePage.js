@@ -22,12 +22,12 @@ function HomePage(){
 
     <div className="d-flex align-items-center justify-content-start ml-10">
 
-        <h1 className="find-us-text text-light display-4">Find us on</h1>
+        <h1 className="find-us-text text-light display-4">Follow us on</h1>
         
             <div className="find-us-social d-flex justify-content-between ml-5">
-                <a className="mr-4 text-light" href="facebook.com"><GrFacebook/></a>
-                <a className="mr-4 text-light" href="instagram.com"><GrInstagram/></a>
-                <a className="mr-4 text-light" href="twitter.com"><GrTwitter/></a>
+                <a className="mr-4 text-light" href="https://facebook.com"><GrFacebook/></a>
+                <a className="mr-4 text-light" href="https://instagram.com"><GrInstagram/></a>
+                <a className="mr-4 text-light" href="https://twitter.com"><GrTwitter/></a>
             </div>
         
     </div>
