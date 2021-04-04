@@ -53,7 +53,7 @@ function HomePage(){
             <h1 className="mb-3 ml-3">Hausbrand</h1>
         </div>
 
-        <div className="w-25 text-light">
+        <div className="w-35 text-light">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 In at felis felis. Praesent sagittis efficitur nulla sed
                 efficitur. Praesent sit amet commodo urna, vitae imperdiet
