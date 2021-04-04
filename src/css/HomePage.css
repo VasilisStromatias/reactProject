@@ -1,3 +1,4 @@
+
 .one{
     height: 100vh;
     background-image: url('../images/backHome2.jpg');
@@ -5,6 +6,7 @@
     background-position: center;
     background-attachment: fixed;
 } 
+
 
 .one-container {
     height: 70vh;

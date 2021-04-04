@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 
 nav {
     height: 10%;
@@ -7,9 +7,13 @@ nav {
 
 .navbar-brand {
     font-family: 'Train One', cursive;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 .navbar-nav {
     font-size: 18px ;
 }
+
+.company-name{
+    font-family: 'Love Ya Like A Sister', cursive;
+ }

@@ -10,7 +10,7 @@ return (
 <nav className ="nav nav-pills navbar-expand-md bg-dark 
  align-items-center justify-content-between sticky-top">   
 
- <Link className="navbar-brand text-warning ml-5" to="/">Upupa epops</Link>
+ <Link className="navbar-brand text-warning ml-5 company-name" to="/">Upupa epops</Link>
 
 <div>
     <ul className = "list-items navbar-nav bg-dark text-center" >    

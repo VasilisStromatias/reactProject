@@ -14,7 +14,7 @@ function HomePage(){
 
         <div className="text-light text-center">
             <h3 className="text-left">Welcome to</h3>
-            <h1 className="display-4">Upupa Epops</h1>
+            <h1 className="display-3 company-name">Upupa Epops</h1>
             <h6 className="text-right">the bar</h6>
         </div>
 
