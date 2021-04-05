@@ -9,10 +9,10 @@ import {ImPhone} from 'react-icons/im';
 function Footer (){
     return(
         <>
-            <footer className="footer d-flex flex-row justify-content-around
+            <footer className="footer d-flex flex-column flex-sm-row justify-content-around
             bg-dark text-light">
 
-                <div className ="my-auto">
+                <div className ="my-auto d-none d-md-block">
                     <h3 className=" font-weight-bold">Opening Hours</h3>
                     <ul className ="days p-0 m-0">
                         <li><p>Δευτέρα 10:00-02:00</p></li>
@@ -35,15 +35,15 @@ function Footer (){
                     <div className="text-warning"><GrMail/></div>
                     <p className="text-light">info@upupaepops.com</p>
 
-                    <button className="btn btn-warning w-100">
+                    <button className="btn btn-warning w-75">
                         <Link to="/contact" className="text-dark">Send us mail</Link>
                     </button>
 
                 </div>
                 
-                <div className="my-auto">
-                    <h3 className="find-us m-0 font-weight-bold">Find us on</h3>
-                    <div className="social-media d-flex justify-content-center ">
+                <div className="my-auto mx-auto mx-sm-0 row d-sm-flex flex-sm-column justify-content-sm-center">
+                    <h3 className="find-us m-0 font-weight-bold col-6 col-sm-12">Find us on</h3>
+                    <div className="social-media d-flex justify-content-center col-6 col-sm-12">
                         <a className="text-light mr-4" href="https://facebook.com"><GrFacebook/></a>
                         <a className="text-light mr-4" href="https://instagram.com"><GrInstagram/></a>
                         <a className="text-light mr-4" href="https://twitter.com"><GrTwitter/></a>

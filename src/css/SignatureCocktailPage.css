@@ -9,5 +9,6 @@
 }
 
 .cocktail-description {
-    height: 50px;
+    font-size: smaller;
+    height: 60px;
 }
