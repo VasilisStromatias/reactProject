@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../css/HomePage.css';
 import {GrFacebook, GrInstagram, GrTwitter} from 'react-icons/gr';
+import CarouselUpupa from './Carousel';
 
 
 
@@ -96,11 +97,14 @@ function HomePage(){
 
     </div>
 
-</div>
+    
 
 </div>
+</div>
 
-
+<div className="carousel-container bg-warning py-5">
+    <CarouselUpupa />
+</div>
 
     </>
     );
