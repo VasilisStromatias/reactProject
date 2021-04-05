@@ -1,4 +1,4 @@
-
+/* ONE */
 .one{
     height: 100vh;
     background-image: url('../images/backHome2.jpg');
@@ -7,15 +7,28 @@
     background-attachment: fixed;
 } 
 
-
 .one-container {
     height: 70vh;
 }
 
-.one-half{
-    height: 25vh;
+.find-us-text{
+    font-family: 'Arimo', sans-serif;
+     font-size: 70px;
+     font-weight: bolder;
  }
 
+ .find-us-social {
+     font-size: 60px;
+ }
+
+
+/* ONE HALF */
+.one-half{
+    height: 30vh;
+ }
+
+
+/* TWO */
 .shape {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
     height: 380px;
@@ -31,20 +44,56 @@
     text-decoration: none;
  }
 
- .find-us-text{
-    font-family: 'Arimo', sans-serif;
-     font-size: 70px;
-     font-weight: bolder;
- }
-
- .find-us-social {
-     font-size: 60px;
- }
-
+ 
+/* GENERAL */
  .ml-10 {
      margin-left: 10%;
  }
 
+
+/* CAROUSEL THREE */
  .carousel-container {
      height: 90vh;
  }
+
+/* MEDIA FOR MOBILE SCREENS */
+
+ @media only screen and (max-width: 800px) {
+    .welcomeTo {
+        padding-top: 15%;
+    }
+
+    .find-us-text{
+        font-size: 40px;
+        font-weight: lighter;
+    }
+
+    .find-us-social {
+        font-size: 30px;
+    }
+
+    .one{
+        height: 85vh;
+    }
+
+    .one-half{
+        height: 20vh;
+     }
+
+    .contact-btn h1 {
+        font-size: 30px;
+    }
+
+    .shape {
+        height: 340px;
+        width: 340px;
+     }
+
+     .shape-signature{
+         width: 50% !important;
+     }
+
+    
+    
+
+}

@@ -11,9 +11,11 @@ function HomePage(){
     <>
 <div className="one">
 
-    <div className ="container one-container d-flex align-items-center justify-content-end">
+    <div className ="container one-container
+    d-block d-sm-flex align-items-sm-center justify-content-sm-end
+    ">
 
-        <div className="text-light text-center">
+        <div className="text-light text-center welcomeTo">
             <h3 className="text-left">Welcome to</h3>
             <h1 className="display-3 company-name">Upupa Epops</h1>
             <h6 className="text-right">the bar</h6>
@@ -21,11 +23,14 @@ function HomePage(){
 
     </div>
 
-    <div className="d-flex align-items-center justify-content-start ml-10">
+    <div className="ml-10 d-flex align-items-center justify-content-start 
+    ">
 
-        <h1 className="find-us-text text-light display-4">Follow us on</h1>
+        <h1 className="find-us-text text-light display-4
+        ">Follow us on</h1>
         
-            <div className="find-us-social d-flex justify-content-between ml-5">
+            <div className="ml-5 find-us-social d-flex justify-content-between
+            ">
                 <a className="mr-4 text-light" href="https://facebook.com"><GrFacebook/></a>
                 <a className="mr-4 text-light" href="https://instagram.com"><GrInstagram/></a>
                 <a className="mr-4 text-light" href="https://twitter.com"><GrTwitter/></a>
@@ -35,26 +40,34 @@ function HomePage(){
     
 </div>
 
-<div className="one-half bg-warning d-flex justify-content-center align-items-center">
-        <button className="btn btn-dark w-50 h-50">
+
+
+<div className="one-half bg-warning 
+d-flex justify-content-center align-items-center
+">
+        <button className="btn btn-dark contact-btn w-50 h-50">
             <a href="/contact">
                 <h1 className="display-4 text-light">Contact Us</h1>
             </a>
         </button>
+</div> 
 
-    </div>
+
 
 <div className="test">
 <div className="container">
-    <div className="d-flex justify-content-around align-items-center two">
+    <div className="two d-flex justify-content-around align-items-center
+    ">
 
-        <div className="shape bg-warning d-flex flex-column justify-content-center align-items-center">
+        <div className="shape bg-warning 
+        d-flex flex-column justify-content-center align-items-center
+        ">
             <h3 className="mr-5">Speciality Coffee</h3>
             <h6 className="pl-5 m-0">from</h6>
             <h1 className="mb-3 ml-3">Hausbrand</h1>
         </div>
 
-        <div className="w-35 text-light">
+        <div className="w-35 text-light d-none d-md-block">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 In at felis felis. Praesent sagittis efficitur nulla sed
                 efficitur. Praesent sit amet commodo urna, vitae imperdiet
@@ -71,9 +84,13 @@ function HomePage(){
     </div>
 
 
-    <div className="d-flex justify-content-around align-items-center two">
+    <div className="two d-flex justify-content-around align-items-center
+    ">
+        
 
-        <div className="w-25 d-flex flex-column">
+        <div className="w-25 shape-signature
+         d-flex flex-column">
+             <h3 className="text-light d-md-none font-weight-bold">Signature Cocktails</h3>
             <p className="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 In at felis felis. Praesent sagittis efficitur nulla sed
                 efficitur. Praesent sit amet commodo urna, vitae imperdiet
@@ -83,13 +100,16 @@ function HomePage(){
 
             <button className="btn btn-warning">
                 <a href="/signature-cocktail" className="text-dark">
-                    <h5 className="mt-2">Click here to see the cocktails</h5>
+                    <h5 className="mt-2">See the cocktails</h5>
                 </a>
             </button>
 
         </div>
 
-        <div className="shape bg-warning d-flex flex-column justify-content-center align-items-center">
+        <div className="shape bg-warning
+        d-none
+        d-md-flex flex-column justify-content-center align-items-center
+        ">
             <h3 className="mr-5">Signature Cocktails</h3>
             <h6 className="pl-5 m-0">from</h6>
             <h1 className="mb-3 ml-3">our TEAM</h1>
@@ -102,7 +122,7 @@ function HomePage(){
 </div>
 </div>
 
-<div className="carousel-container bg-warning py-5">
+<div className="carousel-container bg-warning py-5 d-none d-md-block">
     <CarouselUpupa />
 </div>
 

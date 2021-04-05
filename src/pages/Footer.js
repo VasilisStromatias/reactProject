@@ -2,8 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../css/Footer.css';
-import {GrFacebook, GrInstagram, GrTwitter, GrMail} from 'react-icons/gr';
-import {ImPhone} from 'react-icons/im';
+import {GrFacebook, GrInstagram, GrTwitter} from 'react-icons/gr';
+import {ImPhone, ImMap} from 'react-icons/im';
 
 
 function Footer (){
@@ -30,10 +30,10 @@ function Footer (){
                     <h3 className=" font-weight-bold">Contact</h3>
 
                     <div className="text-warning"><ImPhone/></div>
-                    <p className="text-light">210-xxxxxxx</p>
+                    <p className="text-light">212 1055214</p>
 
-                    <div className="text-warning"><GrMail/></div>
-                    <p className="text-light">info@upupaepops.com</p>
+                    <div className="text-warning"><ImMap/></div>
+                    <p className="text-light">Αλκμήνης 7, Πετράλωνα</p>
 
                     <button className="btn btn-warning w-75">
                         <Link to="/contact" className="text-dark">Send us mail</Link>
