@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
 
 nav {
-    height: 10%;
+    height: max-content;
     font-family: 'Nunito', sans-serif;
 }
 
@@ -16,4 +16,4 @@ nav {
 
 .company-name{
     font-family: 'Love Ya Like A Sister', cursive;
- }
+}
