@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {Link} from "react-router-dom";
 import '../css/NavBar.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import {GiHamburgerMenu} from 'react-icons/gi';
 
 function  NavBar() {
 
@@ -14,11 +15,11 @@ return (
 <nav className ="nav nav-pills navbar-expand-md bg-dark 
  align-items-center justify-content-between">   
 
-        <button className="btn btn-warning d-sm-none menu-toggle-btn m-2"
+        <button className="btn btn-warning text-dark d-sm-none menu-toggle-btn m-2"
         onClick={()=> {
             setToggle(!toggle);
             }}>
-            ---
+            <GiHamburgerMenu/>
         </button>
 
 
