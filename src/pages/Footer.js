@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../css/Footer.css';
 import {GrFacebook, GrInstagram, GrTwitter} from 'react-icons/gr';
 import {ImPhone, ImMap} from 'react-icons/im';
+import {FaTripadvisor} from 'react-icons/fa';
 
 
 function Footer (){
@@ -46,7 +47,7 @@ function Footer (){
                     <div className="social-media d-flex justify-content-center col-6 col-sm-12">
                         <a className="text-light mr-4" href="https://facebook.com"><GrFacebook/></a>
                         <a className="text-light mr-4" href="https://instagram.com"><GrInstagram/></a>
-                        <a className="text-light mr-4" href="https://twitter.com"><GrTwitter/></a>
+                        <a className="text-light mr-4" href="https://tripadvisor.com"><FaTripadvisor/></a>
                     </div>
                     
                 </div>

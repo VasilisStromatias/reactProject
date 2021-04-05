@@ -2,6 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../css/HomePage.css';
 import {GrFacebook, GrInstagram, GrTwitter} from 'react-icons/gr';
+import {FaTripadvisor} from 'react-icons/fa';
 import CarouselUpupa from './Carousel';
 
 
@@ -33,7 +34,7 @@ function HomePage(){
             ">
                 <a className="mr-4 text-light" href="https://facebook.com"><GrFacebook/></a>
                 <a className="mr-4 text-light" href="https://instagram.com"><GrInstagram/></a>
-                <a className="mr-4 text-light" href="https://twitter.com"><GrTwitter/></a>
+                <a className="mr-4 text-light" href="https://tripadvisor.com"><FaTripadvisor/></a>
             </div>
         
     </div>
