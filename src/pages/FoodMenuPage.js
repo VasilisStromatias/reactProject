@@ -63,21 +63,21 @@ if (item.category === "brunch") {
     return(
         <>
 
-            <div className="d-flex align-items-center justify-content-start">
+        <div className="d-flex align-items-center justify-content-start row">
 
-            <div className="plate-name">
-            <h2 className="mr-4">
+            <div className="plate-name col-sm-3">
+                <h2 className="mr-4">
                     {item.name}
                 </h2>
             </div>
                 
             <div>
-            <p className="ingre letter-spacing">
+                <p className="ingre letter-spacing col-sm-9">
                     {item.ingredients}
                 </p>
             </div>
 
-            </div>
+        </div>
 
         </>
     );
@@ -85,30 +85,30 @@ if (item.category === "brunch") {
                   
 })
 
-const foodPancakes = foodData.map (item =>{
-    if (item.subcategory === "pancakes") {
-        return(
-            <>
+    const foodPancakes = foodData.map (item =>{
+        if (item.subcategory === "pancakes") {
+            return(
+                <>
     
-                <div className="d-flex align-items-center justify-content-start">
+                <div className="d-flex align-items-center justify-content-start row">
     
-                <div className="plate-name">
-                <h2 className="mr-4">
-                        {item.name}
-                    </h2>
-                </div>
+                    <div className="plate-name col-sm-3">
+                        <h2 className="mr-4">
+                            {item.name}
+                        </h2>
+                    </div>
                     
-                <div>
-                <p className="ingre letter-spacing">
-                        {item.ingredients}
-                    </p>
-                </div>
+                    <div>
+                        <p className="ingre letter-spacing col-sm-9">
+                            {item.ingredients}
+                        </p>
+                    </div>
     
                 </div>
     
-            </>
-        );
-    }
+                </>
+            );
+        }
                       
     })
 
@@ -117,184 +117,182 @@ const foodPancakes = foodData.map (item =>{
             return(
                 <>
         
-                    <div className="d-flex align-items-center justify-content-start">
+                <div className="d-flex align-items-center justify-content-start row">
         
-                    <div className="plate-name">
-                    <h2 className="mr-4">
+                    <div className="plate-name col-sm-3">
+                        <h2 className="mr-4">
                             {item.name}
                         </h2>
                     </div>
                         
                     <div>
-                    <p className="ingre letter-spacing">
+                        <p className="ingre letter-spacing col-sm-9">
                             {item.ingredients}
                         </p>
                     </div>
         
-                    </div>
+                </div>
         
                 </>
             );
         }
                           
-        })
+    })
 
-        const foodEggs = foodData.map (item =>{
-            if (item.subcategory === "eggs") {
-                return(
-                    <>
+    const foodEggs = foodData.map (item =>{
+        if (item.subcategory === "eggs") {
+            return(
+                <>
+                <div className="d-flex align-items-center justify-content-start row">
             
-                        <div className="d-flex align-items-center justify-content-start">
-            
-                        <div className="plate-name">
+                    <div className="plate-name col-sm-3">
                         <h2 className="mr-4">
                                 {item.name}
-                            </h2>
-                        </div>
+                        </h2>
+                    </div>
                             
-                        <div>
-                        <p className="ingre letter-spacing">
+                    <div>
+                        <p className="ingre letter-spacing col-sm-9">
                                 {item.ingredients}
-                            </p>
-                        </div>
+                        </p>
+                    </div>
             
-                        </div>
+                </div>
             
-                    </>
+                </>
                 );
-            }
+        }
                               
-            })
+    })
 
 const foodSalads = foodData.map (item =>{
     if (item.category === "salads") {
         return(
             <>
+            <div className="d-flex align-items-center justify-content-start row">
     
-                <div className="d-flex align-items-center justify-content-start">
-    
-                <div className="plate-name">
-            <h2 className="mr-4">
-                    {item.name}
-                </h2>
-            </div>
-                
-            <div>
-            <p className="ingre letter-spacing">
-                    {item.ingredients}
-                </p>
-            </div>
-    
+                <div className="plate-name col-sm-3">
+                    <h2 className="mr-4">
+                        {item.name}
+                    </h2>
                 </div>
+                
+                <div>
+                    <p className="ingre letter-spacing col-sm-9">
+                        {item.ingredients}
+                    </p>
+                </div>
+    
+            </div>
     
             </>
         );
     }
                         
-    })
+})
 
-    const foodPizzete = foodData.map (item =>{
-        if (item.category === "pizzete") {
-            return(
-                <>
+const foodPizzete = foodData.map (item =>{
+    if (item.category === "pizzete") {
+        return(
+            <>
         
-                    <div className="d-flex align-items-center justify-content-start">
+            <div className="d-flex align-items-center justify-content-start row">
         
-                    <div className="plate-name">
-            <h2 className="mr-4">
-                    {item.name}
-                </h2>
-            </div>
+                <div className="plate-name col-sm-3">
+                    <h2 className="mr-4">
+                        {item.name}
+                    </h2>
+                </div>
                 
-            <div>
-            <p className="ingre letter-spacing">
-                    {item.ingredients}
-                </p>
+                <div>
+                    <p className="ingre letter-spacing col-sm-9">
+                        {item.ingredients}
+                    </p>
+                </div>
+        
             </div>
         
-                    </div>
-        
-                </>
-            );
-        }
+            </>
+        );
+    }
                             
-        })
+})
 
-        const foodBarfood = foodData.map (item =>{
-            if (item.category === "barfood") {
-                return(
-                    <>
+const foodBarfood = foodData.map (item =>{
+    if (item.category === "barfood") {
+        return(
+            <>
             
-                        <div className="d-flex align-items-center justify-content-start">
+            <div className="d-flex align-items-center justify-content-start row">
             
-                        <div className="plate-name">
-            <h2 className="mr-4">
-                    {item.name}
-                </h2>
-            </div>
+                    <div className="plate-name col-sm-3">
+                        <h2 className="mr-4">
+                            {item.name}
+                        </h2>
+                    </div>
                 
-            <div>
-            <p className="ingre letter-spacing">
-                    {item.ingredients}
-                </p>
+                <div>
+                    <p className="ingre letter-spacing col-sm-9">
+                        {item.ingredients}
+                    </p>
+                </div>
+            
             </div>
             
-                        </div>
-            
-                    </>
-                );
-            }
+            </>
+        );
+    }
                                 
-            })
+})
 
-        const foodBurger = foodData.map (item =>{
-            if (item.category === "burger") {
-                return(
-                    <>
+const foodBurger = foodData.map (item =>{
+    if (item.category === "burger") {
+        return(
+            <>
             
-                        <div className="d-flex align-items-center justify-content-start">
+            <div className="d-flex align-items-center justify-content-start row">
             
-                        <div className="plate-name">
-            <h2 className="mr-4">
-                    {item.name}
-                </h2>
-            </div>
+                <div className="plate-name col-sm-3">
+                    <h2 className="mr-4">
+                        {item.name}
+                    </h2>
+                </div>
                 
-            <div>
-            <p className="ingre letter-spacing">
-                    {item.ingredients}
-                </p>
+                <div>
+                    <p className="ingre letter-spacing col-sm-9">
+                        {item.ingredients}
+                    </p>
+                </div>
+            
             </div>
             
-                        </div>
-            
-                    </>
-                );
-            }
+            </>
+        );
+    }
                                 
-            })
+})
 
 const foodLunch = foodData.map ((item) =>{
     if (item.category === "lunch") {
         return(
             <>
 
-            <div className="d-flex align-items-end justify-content-start">
+        <div className="d-flex align-items-end justify-content-start row">
             
-            <div className="plate-name">
-            <h2 className="mr-4">
+            <div className="plate-name col-sm-3 ">
+                <h2 className="mr-4">
                     {item.name}
                 </h2>
             </div>
                 
             <div>
-            <p className="ingre letter-spacing">
+                <p className="ingre letter-spacing col-sm-9">
                     {item.ingredients}
                 </p>
             </div>
                 
 
-            </div>
+        </div>
             
             </>
         );
@@ -307,21 +305,21 @@ const foodDessert = foodData.map ((item) =>{
     if (item.category === "dessert") {
         return(
              <>
-                <div className="d-flex align-items-center justify-content-start">
+        <div className="d-flex align-items-center justify-content-start row">
 
-                <div className="plate-name">
-            <h2 className="mr-4">
+            <div className="plate-name col-sm-3">
+                <h2 className="mr-4">
                     {item.name}
                 </h2>
             </div>
                 
             <div>
-            <p className="ingre letter-spacing">
+                <p className="ingre letter-spacing col-sm-9">
                     {item.ingredients}
                 </p>
             </div>
 
-                </div>
+        </div>
                 
                 </>
         );
