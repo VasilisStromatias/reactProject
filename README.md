@@ -1,6 +1,5 @@
 # FIRST YOU HAVE TO INSTALL NODE 
-Install it [here](https://nodejs.org/en/)
-
+Install it [HERE](https://nodejs.org/en/)
 
 # Getting Started with Create React App
 
