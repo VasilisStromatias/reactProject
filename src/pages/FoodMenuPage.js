@@ -330,7 +330,7 @@ const foodDessert = foodData.map ((item) =>{
 
     return(
         <>
-        <div className="food-page">
+        <div className="food-page bg-leaf">
         <div className="container food-menu text-light font-weight-bold"> 
 
 {/* BRUNCH */}

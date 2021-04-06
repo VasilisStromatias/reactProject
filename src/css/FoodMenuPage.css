@@ -1,8 +1,6 @@
 .food-page {
     font-family: 'Arimo', sans-serif;
     height: max-content;
-    background-image: url('../images/backround-1.jpg');
-    background-size: cover;
 }
 
 .food-menu {

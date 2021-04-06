@@ -14,3 +14,9 @@
 .w-35{
    width: 35%;
 }
+
+.bg-leaf{
+   background-size: cover;
+   background-image: url('./images/backround-1.jpg');
+   background-position: center;
+}

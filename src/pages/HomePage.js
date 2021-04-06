@@ -55,7 +55,7 @@ d-flex justify-content-center align-items-center
 
 
 
-<div className="test">
+<div className="bg-leaf">
 <div className="container">
     <div className="two d-flex justify-content-around align-items-center
     ">

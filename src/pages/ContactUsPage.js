@@ -6,7 +6,7 @@ import '../css/ContactUs.css'
 function ContactUsPage(){
 return (
 <>
-<div className="test ">
+<div className="bg-leaf">
 
 <div className="container contact-page">
     <div className="contact-page d-flex flex-column justify-content-center align-items-center">
