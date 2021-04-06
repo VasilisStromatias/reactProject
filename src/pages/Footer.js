@@ -45,9 +45,9 @@ function Footer (){
                 <div className="my-auto mx-auto mx-sm-0 row d-sm-flex flex-sm-column justify-content-sm-center">
                     <h3 className="find-us m-0 font-weight-bold col-6 col-sm-12">Find us on</h3>
                     <div className="social-media d-flex justify-content-center col-6 col-sm-12">
-                        <a className="text-light mr-4" href="https://facebook.com"><GrFacebook/></a>
-                        <a className="text-light mr-4" href="https://instagram.com"><GrInstagram/></a>
-                        <a className="text-light mr-4" href="https://tripadvisor.com"><FaTripadvisor/></a>
+                        <a className="text-light mr-4" href="https://www.facebook.com/upupaepopsthebar2016"><GrFacebook/></a>
+                        <a className="text-light mr-4" href="https://www.instagram.com/upupaepops_thebar/"><GrInstagram/></a>
+                        <a className="text-light mr-4" href="https://www.tripadvisor.com.gr/Attraction_Review-g189400-d11667858-Reviews-Upupa_Epops_The_Bar-Athens_Attica.html"><FaTripadvisor/></a>
                     </div>
                     
                 </div>

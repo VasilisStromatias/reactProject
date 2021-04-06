@@ -32,9 +32,9 @@ function HomePage(){
         
             <div className="ml-5 find-us-social d-flex justify-content-between
             ">
-                <a className="mr-4 text-light" href="https://facebook.com"><GrFacebook/></a>
-                <a className="mr-4 text-light" href="https://instagram.com"><GrInstagram/></a>
-                <a className="mr-4 text-light" href="https://tripadvisor.com"><FaTripadvisor/></a>
+                <a className="mr-4 text-light" href="https://www.facebook.com/upupaepopsthebar2016"><GrFacebook/></a>
+                <a className="mr-4 text-light" href="https://www.instagram.com/upupaepops_thebar/"><GrInstagram/></a>
+                <a className="mr-4 text-light" href="https://www.tripadvisor.com.gr/Attraction_Review-g189400-d11667858-Reviews-Upupa_Epops_The_Bar-Athens_Attica.html"><FaTripadvisor/></a>
             </div>
         
     </div>
