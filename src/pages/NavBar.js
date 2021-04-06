@@ -13,7 +13,7 @@ return (
 <>
 
 <nav className ="nav nav-pills navbar-expand-md bg-dark 
- align-items-center justify-content-between">   
+ align-items-center justify-content-between sticky-top">   
 
         <button className="btn btn-warning text-dark d-sm-none menu-toggle-btn m-2"
         onClick={()=> {
