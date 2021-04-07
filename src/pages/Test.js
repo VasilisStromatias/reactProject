@@ -1,20 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../css/Test.css';
-import CarouselUpupa from './Carousel';
 
+import TestItem from './TestItem';
+import foodData from'../pages/food-menu';
 
-
-function Test () {
-    return (
-    <>
-
-        <CarouselUpupa />
-
-    </>
-    
-    );
-
-    }
+const Test = () => (
+    <div>
+        {foodData.map ((item,i) => <TestItem item={item} key={i} />)}
+    </div>
+);
 
 export default Test;
